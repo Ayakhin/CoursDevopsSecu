@@ -15,3 +15,6 @@ jobs:
 
       - name: Installer semgrep
         run: pip install semgrep
+
+      - name: Test n°1
+        run: semgrep scan app.py
