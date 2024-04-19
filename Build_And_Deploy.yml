@@ -1,0 +1,4 @@
+name: Test d'installation de dépendance
+
+- name: Install Dependencies
+  run: pip install semgrep
